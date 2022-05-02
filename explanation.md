@@ -26,5 +26,9 @@ Implementation Design
 
 - Preprocess function
     - this function must strip, then lowercase, and replace all consecutive letter with a space character
-         - This done through the use of a regex 
-        - Once the regex is done then each t
+        - This done through the use of a regex 
+        - Once the regex is done then each then the data is split into terms.
+        - Which then you use to initialize a new hash set which will store the word as the key and its frequency as its value
+    - Traversal
+        - the array, termArray, is then traversed by a for loop 
+            - the for loop will first ignore all the 
